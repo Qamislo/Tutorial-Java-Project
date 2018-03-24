@@ -9,15 +9,10 @@ package tutorialjavaproject;
  *
  * @author OS
  */
-public class MainClass {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        HelloWorldClass hwc = new HelloWorldClass();
-        
-        hwc.printHello();
+public class HelloWorldClass {
+    
+    void printHello(){
+        System.out.println("Hello World lesson 1.01");
     }
     
 }
